@@ -28,6 +28,15 @@ BOOL haveStart=NO;
 //接收音频数据
 - (void) OnReceiveAudoData:(void *)pAudioBuffer withLength:(WORD)len
 {
+    /*手动丢包 测试播放器依然有效*/
+    /*
+    // 丢掉这些包
+    if ((recNum>=300&&recNum<=400) || (recNum>=600&&recNum<=700) ||
+        (recNum>=1000&&recNum<=1100) || (recNum>=1300&&recNum<=1400) ||
+        (recNum>=1600&&recNum<=1700) || (recNum>=2000&&recNum<=2100)) {
+        return;
+    }
+     */
     /*cxm 接收到大于6条数据，启动播放器*/
     //audioPlayer->addVoiceData(pAudioBuffer, len);
     audioCache->ReceiveAudioData(pAudioBuffer, len);
