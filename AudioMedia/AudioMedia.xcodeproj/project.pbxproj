@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C47035BE1E349F6900242C42 /* AudioCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C47035B71E349F6900242C42 /* AudioCache.cpp */; };
+		C47035BF1E349F6900242C42 /* AudioPlayers.mm in Sources */ = {isa = PBXBuildFile; fileRef = C47035BA1E349F6900242C42 /* AudioPlayers.mm */; };
+		C47035C01E349F6900242C42 /* AudioRecorder.mm in Sources */ = {isa = PBXBuildFile; fileRef = C47035BC1E349F6900242C42 /* AudioRecorder.mm */; };
+		C489EDCF1E52D058007DAA34 /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489EDC81E52D058007DAA34 /* CADebugMacros.cpp */; };
+		C489EDD01E52D058007DAA34 /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489EDCB1E52D058007DAA34 /* CAStreamBasicDescription.cpp */; };
+		C489EDD11E52D058007DAA34 /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489EDCD1E52D058007DAA34 /* CAXException.cpp */; };
+		C489EDD31E52D22E007DAA34 /* AudioCache.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C47035B81E349F6900242C42 /* AudioCache.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		C489EDD41E52D230007DAA34 /* Globaldef_i.h in Headers */ = {isa = PBXBuildFile; fileRef = C489EDC51E52CD59007DAA34 /* Globaldef_i.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C489EDD51E52D233007DAA34 /* AudioPlayers.h in Headers */ = {isa = PBXBuildFile; fileRef = C47035B91E349F6900242C42 /* AudioPlayers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C489EDD61E52D236007DAA34 /* AudioRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = C47035BB1E349F6900242C42 /* AudioRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C489EDE21E52D5B4007DAA34 /* CAStreamBasicDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = C489EDCC1E52D058007DAA34 /* CAStreamBasicDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C489EDE31E52D5BE007DAA34 /* CAXException.h in Headers */ = {isa = PBXBuildFile; fileRef = C489EDCE1E52D058007DAA34 /* CAXException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C489EDE41E52D5C4007DAA34 /* CADebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = C489EDC91E52D058007DAA34 /* CADebugMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C47035A91E349DD600242C42 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C47035AB1E349DD600242C42 /* libAudioMedia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAudioMedia.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47035B71E349F6900242C42 /* AudioCache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioCache.cpp; sourceTree = "<group>"; };
+		C47035B81E349F6900242C42 /* AudioCache.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AudioCache.hpp; sourceTree = "<group>"; };
+		C47035B91E349F6900242C42 /* AudioPlayers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayers.h; sourceTree = "<group>"; };
+		C47035BA1E349F6900242C42 /* AudioPlayers.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioPlayers.mm; sourceTree = "<group>"; };
+		C47035BB1E349F6900242C42 /* AudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioRecorder.h; sourceTree = "<group>"; };
+		C47035BC1E349F6900242C42 /* AudioRecorder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioRecorder.mm; sourceTree = "<group>"; };
+		C489EDC51E52CD59007DAA34 /* Globaldef_i.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Globaldef_i.h; sourceTree = "<group>"; };
+		C489EDC81E52D058007DAA34 /* CADebugMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CADebugMacros.cpp; sourceTree = "<group>"; };
+		C489EDC91E52D058007DAA34 /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugMacros.h; sourceTree = "<group>"; };
+		C489EDCA1E52D058007DAA34 /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMath.h; sourceTree = "<group>"; };
+		C489EDCB1E52D058007DAA34 /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		C489EDCC1E52D058007DAA34 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		C489EDCD1E52D058007DAA34 /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAXException.cpp; sourceTree = "<group>"; };
+		C489EDCE1E52D058007DAA34 /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAXException.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C47035A81E349DD600242C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C47035A21E349DD600242C42 = {
+			isa = PBXGroup;
+			children = (
+				C47035AD1E349DD600242C42 /* AudioMedia */,
+				C47035AC1E349DD600242C42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C47035AC1E349DD600242C42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C47035AB1E349DD600242C42 /* libAudioMedia.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C47035AD1E349DD600242C42 /* AudioMedia */ = {
+			isa = PBXGroup;
+			children = (
+				C489EDC71E52D058007DAA34 /* iPublicUtility */,
+				C489EDC51E52CD59007DAA34 /* Globaldef_i.h */,
+				C47035B71E349F6900242C42 /* AudioCache.cpp */,
+				C47035B81E349F6900242C42 /* AudioCache.hpp */,
+				C47035B91E349F6900242C42 /* AudioPlayers.h */,
+				C47035BA1E349F6900242C42 /* AudioPlayers.mm */,
+				C47035BB1E349F6900242C42 /* AudioRecorder.h */,
+				C47035BC1E349F6900242C42 /* AudioRecorder.mm */,
+			);
+			path = AudioMedia;
+			sourceTree = "<group>";
+		};
+		C489EDC71E52D058007DAA34 /* iPublicUtility */ = {
+			isa = PBXGroup;
+			children = (
+				C489EDC81E52D058007DAA34 /* CADebugMacros.cpp */,
+				C489EDC91E52D058007DAA34 /* CADebugMacros.h */,
+				C489EDCA1E52D058007DAA34 /* CAMath.h */,
+				C489EDCB1E52D058007DAA34 /* CAStreamBasicDescription.cpp */,
+				C489EDCC1E52D058007DAA34 /* CAStreamBasicDescription.h */,
+				C489EDCD1E52D058007DAA34 /* CAXException.cpp */,
+				C489EDCE1E52D058007DAA34 /* CAXException.h */,
+			);
+			path = iPublicUtility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C489EDD21E52D227007DAA34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C489EDD31E52D22E007DAA34 /* AudioCache.hpp in Headers */,
+				C489EDD41E52D230007DAA34 /* Globaldef_i.h in Headers */,
+				C489EDD51E52D233007DAA34 /* AudioPlayers.h in Headers */,
+				C489EDD61E52D236007DAA34 /* AudioRecorder.h in Headers */,
+				C489EDE21E52D5B4007DAA34 /* CAStreamBasicDescription.h in Headers */,
+				C489EDE31E52D5BE007DAA34 /* CAXException.h in Headers */,
+				C489EDE41E52D5C4007DAA34 /* CADebugMacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C47035AA1E349DD600242C42 /* AudioMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47035B41E349DD600242C42 /* Build configuration list for PBXNativeTarget "AudioMedia" */;
+			buildPhases = (
+				C47035A71E349DD600242C42 /* Sources */,
+				C47035A81E349DD600242C42 /* Frameworks */,
+				C47035A91E349DD600242C42 /* Copy Files */,
+				C489EDD21E52D227007DAA34 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioMedia;
+			productName = AudioMedia;
+			productReference = C47035AB1E349DD600242C42 /* libAudioMedia.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C47035A31E349DD600242C42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Hero;
+				TargetAttributes = {
+					C47035AA1E349DD600242C42 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C47035A61E349DD600242C42 /* Build configuration list for PBXProject "AudioMedia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C47035A21E349DD600242C42;
+			productRefGroup = C47035AC1E349DD600242C42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C47035AA1E349DD600242C42 /* AudioMedia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C47035A71E349DD600242C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C489EDD11E52D058007DAA34 /* CAXException.cpp in Sources */,
+				C47035BE1E349F6900242C42 /* AudioCache.cpp in Sources */,
+				C47035BF1E349F6900242C42 /* AudioPlayers.mm in Sources */,
+				C489EDCF1E52D058007DAA34 /* CADebugMacros.cpp in Sources */,
+				C47035C01E349F6900242C42 /* AudioRecorder.mm in Sources */,
+				C489EDD01E52D058007DAA34 /* CAStreamBasicDescription.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C47035B21E349DD600242C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C47035B31E349DD600242C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C47035B51E349DD600242C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C47035B61E349DD600242C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C47035A61E349DD600242C42 /* Build configuration list for PBXProject "AudioMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47035B21E349DD600242C42 /* Debug */,
+				C47035B31E349DD600242C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47035B41E349DD600242C42 /* Build configuration list for PBXNativeTarget "AudioMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47035B51E349DD600242C42 /* Debug */,
+				C47035B61E349DD600242C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C47035A31E349DD600242C42 /* Project object */;
+}
